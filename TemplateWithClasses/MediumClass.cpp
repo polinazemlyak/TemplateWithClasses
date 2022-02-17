@@ -1,4 +1,12 @@
 #include "MediumClass.h"
+ 
+/*
+  int* a = new int;
+  delete a;
+
+  int* mass = new int[10];
+  delete[] mass;
+*/
 
 // конструктор по умолчанию
 ClassTemplate::ClassTemplate() {
