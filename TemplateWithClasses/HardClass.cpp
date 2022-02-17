@@ -46,6 +46,8 @@ Parent::Parent(const Parent& curr) : GrandParent(curr.field1) {
   }
 }
 
+// деструктор!!!
+
 void Parent::print() {
   GrandParent::print();
   std::cout << "Output field 2: [ ";
